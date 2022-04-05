@@ -3,8 +3,9 @@
 
 struktur tag HTML
 
-<tagName attribute = "value">
+<!-- <tagName attribute = "value"> -->
 
+<!-- 
 ### boleh punya lebih dari 1 atribute
 ### atau gapunya atribut juga gapapa
 ### tiap tag punya atribut default/ global
@@ -19,3 +20,4 @@ struktur tag HTML
 ### style : menyisipkan inline css
 ### tabindex : menentukan urutan kalau misal membuat form, kalau pencet tab nanti fokus nya kemana
 ### title : judul sebuah elemen
+-->

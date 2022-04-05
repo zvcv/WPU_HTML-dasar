@@ -3,7 +3,7 @@
 
 struktur tag HTML
 
-##### <tagName attribute = "value">
+##### < tagName attribute = "value" >
 
 
 ##### boleh punya lebih dari 1 atribute

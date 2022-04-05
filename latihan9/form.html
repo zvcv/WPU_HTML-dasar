@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--     
+        <form action=""></form>
+
+        sebuah elemen pada html untuk mengelola data dari input user
+        element dalam form
+
+        input     - hanya kolom
+        textarea  - input text yang ada areanya
+        select    - pilihan
+        button    - tombol
+        label     - untuk menandai sebuah element input
+
+        <input type="text" name="" id="">
+        
+        tipe:
+        
+        text
+        password
+        radio
+        checkbox
+
+        submit
+        reset
+        button
+        ...
+    -->
+
+    <form>
+
+        <label for="username">username:</label> <!-- label untuk element username -->
+        <input type="text" id="username"> <!-- id harus sama dengan for -->
+            <br>
+        <label for="password">password:</label> <!-- label untuk element username -->
+        <input type="password" id="password"> <!-- id harus sama dengan for -->
+            <br>
+        <input type="radio" id="pria" name="gender"><label for="pria">pria</label>        <!-- perlu dikasih name biar hanya bisa milih salah satu -->
+        <input type="radio" id="wanita" name="gender"><label for="wanita">wanita</label>  <!-- perlu dikasih name biar hanya bisa milih salah satu -->
+        <!-- kalo mau milih lebih dari 1 pakenya checkbox -->
+            <br>
+        <input type="checkbox" id="makan"><label for="makan">makan</label>
+        <input type="checkbox" id="minum"><label for="minum">minum</label>
+        <input type="checkbox" id="tidur"><label for="tidur">tidur</label>
+            <br>
+        <textarea></textarea> <!-- text dalam sebuah area (you dont say) -->
+            <br>
+        <select>
+            <option>minas tirth</option>
+            <option>minas morgul</option>
+            <option>fangorn</option>
+        </select>
+            <br>
+        <input type="submit" value="kirim input">
+        <!-- kalau mau bikin button mending pake button, jangan input, tipenya juga sama-sama submit, reset, button -->
+        <button type="submit">kirim button</button>
+        
+    </form>
+
+</body>
+</html>

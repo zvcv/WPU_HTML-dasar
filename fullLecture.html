@@ -1,0 +1,180 @@
+<!DOCTYPE html> <!-- untuk memberitahu browser saya menuliskan html versi berapa, kalau ini menandakan kita nulis pakai html 5 -->
+<html lang="en"> <!-- ------------------------------------------------------- tag html, ada pasangannya, tag penutup ada / nya -->
+<!-- ------------------------------------------------- dalam tag html ada 2 tag yaitu head dan body, tampilan2 web ada di body -->
+<head>
+
+    <meta charset="UTF-8"> <!-- -------------------------------------- charset yang digunakan pada website untuk encodingnya -->
+    <meta name="description" content="Kuliah Pemrograman Web"> <!-- -------------------------------- deskripsi dari web kita -->
+    <meta name="keywords" content="HTML, CSS, JavaScript"> <!-- ------------ untuk memudahkan search engine mengidentifikasi -->
+    <meta name="autor" content="Oncom Suroncom">
+
+    <title>Judul Halaman - HTML WPU</title> <!-- ----------------------- akan menjadi judul didalam tab yang dibuka/ diakses -->
+    <!-- <style></style> ------------------------------------------------------------------------- untuk menyimpan style CSS -->
+    <!-- <meta></meta> ------------------------------------------------------------- untuk mendeskripsikan metadata web kita -->
+
+</head>
+<body>
+
+
+    <!--
+
+        <tagName attribute = "value"> 
+        
+        jenis-jenis attribute:
+
+        accesskey --------- untuk menentukan elemen ini bisa diakses menggunakan keyboard atau shortcut
+        class ----------------------------------------------------------------------------- nama elemen
+        id -------------------------------------------------------------------------------- nama elemen
+        dir --------------------------------------------------------------------------------- direction
+        lang --------------------------------------------------------------------------------- language
+        style ------------------------------------------------------------------ menyisipkan inline css
+        tabindex -- menentukan urutan kalau misal membuat form, kalau pencet tab nanti fokus nya kemana
+        title --------------------------------------------------------------------- judul sebuah elemen
+        
+    -->
+
+    <!-- contoh tag <p></p>, <br>, dan <hr> -->
+    <p>Ini adalah paragraf 1</p>
+    <br>
+    <p>Ini adalah <br> paragraf 2</p>
+    <hr>
+
+    <!-- contoh tag <b></b>, <i></i>, <u></u> -->
+    <p><b>Selamat datang!</b> di kuliah pemrograman web 1</p>
+    <p><i>Nama saya</i> <u>oncom suroncom</u></p>
+
+    <!-- contoh tag <strong></strong>, <em></em> -->
+    <p><strong>Pengumuman!</strong> kuliah pemrograman web 1 <em>dimajukan</em></p>
+
+    <!--
+        <p></p> merupakan paragraf
+        <br> break line, bikin line baru, atau enter
+        <hr> horizontal line, bikin garis horizontal
+        <b></b> bikin text bold
+        <i></i> bikin text italic
+        <u></u> bikin text underscore
+        <del></del> bikin text strikethrough
+        <em></em> untuk emphasize, tulisannya jadi miring
+        <strong></strong> untuk penekanan, tulisannya jadi tebal
+
+        heading, dari yang paling besar ke yang paling kecil
+        tergantung kepentingan, h1 lebih penting daripada h2, dst
+
+        <h1></h1>
+        <h2></h2>
+        <h3></h3>
+        <h4></h4>
+        <h5></h5>
+        <h6></h6>
+        
+    -->
+
+    <!--
+        <ol></ol> ordered list, tipe-tipenya bisa diubah
+        <ol type=""> </ol> 1, A, a, I, i
+    -->
+
+    <h3>To Do list</h3>
+    <ol type="a">
+        <li>bangun pagi</li>
+        <li>sarapan</li>
+        <li>senam pagi</li>
+        <li>tidur lagi</li>
+    </ol>
+
+    <!--
+        <ul></ul> unordered list
+        <ul type=""></ul> square, circle, disc
+    -->
+    
+    <h3>saat sarapan, saya makan:</h3>
+    <ul type="square">
+        <li>mi goreng</li>
+        <li>nasi goreng</li>
+        <li>es the</li>
+    </ul>
+
+    <!--
+        <dl></dl> definition list
+        ada sublistnya, <dt></dt> harus berpasangan dengan <dd></dd>
+    -->
+    
+    <h3>pemrograman web 1</h3>
+    <dl>
+        <dt>HTML</dt>
+        <dd>hypertext markup language</dd>
+        <dt>CSS</dt>
+        <dd>cascading stylesheet</dd>
+    </dl>
+
+    <!-- 
+        atribut pada anchor (target)
+        <a href="" target=""></a>
+        _self      membuka link di halaman yang sama
+        _blank     membuka tab baru
+        _parent    berhubungan dengan frame
+        _top       berhubungan dengan frame
+     -->
+    
+
+    <!--
+        tidak disarankan pakai gambar dari web lain
+        karena saat load image pakai bandwidth web sumber gambar itu, jadi curang
+        belum tentu no copyright
+        bergantung pada website lain, kalau down nanti gambarnya ga muncul
+    -->
+
+    <!--
+        attribute dalam img
+        src sumbernya dari mana
+        alt alternative text pada gambar, jika ada masalah dalam gambar maka alt text yg tampil
+        title menampilkan title ketika di hover
+        width
+        height
+
+        kalau pakai px ya fixed segitu
+        kalau pakai % maka akan ikut besar halaman, kalau browser diresize maka gambar ikut keresize juga
+    -->
+
+    <!--
+        attribute dalam table:
+        <table></table>
+
+        border         - gunakan css - menambahkan garis - satuannya px, jadi gaperlu ditulis px nya
+        cellspacing    - gunakan css - menambah jarak antar cell - biasanya 0
+        cellpadding    - gunakan css - memberi luas pada sebuah cell - yang bikin tabel lega
+        colspan        - menggabungkan 2 atau lebih kolom
+        rowspan        - menggabungkan 2 atau lebih baris
+    -->
+
+    <!--     
+        <form action=""></form>
+
+        sebuah elemen pada html untuk mengelola data dari input user
+        element dalam form
+
+        input     - hanya kolom
+        textarea  - input text yang ada areanya
+        select    - pilihan
+        button    - tombol
+        label     - untuk menandai sebuah element input
+
+        <input type="text" name="" id="">
+        
+        tipe:
+        
+        text
+        password
+        radio
+        checkbox
+
+        submit
+        reset
+        button
+        ...
+    -->
+        
+    <!-- <script></script> --------- untuk menyimpan javascript, taruh bawah aja biar webpage nya loaded dulu baru scriptnya -->
+    
+</body>
+</html>

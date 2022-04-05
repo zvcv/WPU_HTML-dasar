@@ -1,0 +1,8 @@
+ - HTML = HyperText Markup Language
+ - founded by tim berners-lee
+ - W3C gapunya markas utama - gabungan dari beberapa negara
+ - W3C membuat standar-standar di dunia web
+ - kalau W3C punya standar baru pasti web browser harus update juga biar mengikuti standar W3C
+ - HTML dibuat untuk membuat struktur sebuah halaman dan menyajikan konten
+ - CSS untuk mempercantik halaman yang dibuat HTML
+ - JS dalam web programming biasanya untuk interaktivitas, tapi diluar itu JS bisa melakukan hal lain yang lebih powerful
